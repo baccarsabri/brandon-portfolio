@@ -1,0 +1,1 @@
+export {EventCardBadge} from './event-card-badge'

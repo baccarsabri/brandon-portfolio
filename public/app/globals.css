@@ -1,0 +1,21 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  @layer base {
+    *{
+      @apply box-border;
+    }
+    body{
+      @apply font-poppins
+    }
+  }
+
+.hero-bg{
+  background-image: url('/bg/hero_bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-color{
+  background: linear-gradient(241deg, rgba(248, 249, 250, 0.30) 30.33%, rgba(230, 231, 231, 0.30) 92.1%), linear-gradient(121deg, rgba(248, 249, 250, 0.40) 2.84%, rgba(246, 241, 255, 0.40) 87.79%), rgba(255,255,255);
+}
